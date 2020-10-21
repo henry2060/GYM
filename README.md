@@ -33,3 +33,12 @@ se genero un paquete de pruebas el cual se puede ejecutar con el siguiente scrip
 npm run test
 npm run average
 ```
+# Docker
+La aplicacion se encuentra dockerizada por lo tanto se puede ejecutar desde su contenedor, para crea la imagen:
+```
+docker build -t gymapp .
+```
+para ejecutar la imagen
+```
+docker run -it --rm -p 8888:5000 gymapp
+```
