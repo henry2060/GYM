@@ -34,7 +34,9 @@ npm run test
 npm run average
 ```
 # Docker
-La aplicacion se encuentra dockerizada por lo tanto se puede ejecutar desde su contenedor, para crea la imagen:
+La aplicacion se encuentra dockerizada por lo tanto se puede ejecutar desde su contenedor, recordar generar el build del proyecto antes generar la imagen docker
+
+para crea la imagen:
 ```
 docker build -t gymapp .
 ```
